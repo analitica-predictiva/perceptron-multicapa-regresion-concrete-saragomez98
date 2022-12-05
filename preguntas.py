@@ -159,7 +159,7 @@ def pregunta_05():
     # Calcule el error cuadrático medio de las muestras
     mse_train = mean_squared_error(  
         y_trian,  
-        y_train_predict,  
+        y_train_pred,  
     )
     mse_test = mean_squared_error(  
         y_test,  
